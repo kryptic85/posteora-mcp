@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "posteora": {
+      "type": "http",
+      "url": "https://posteora.com/mcp"
+    }
+  }
+}

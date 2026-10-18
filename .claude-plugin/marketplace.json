@@ -1,0 +1,15 @@
+{
+  "name": "posteora",
+  "description": "Posteora, the posting agent for your AI",
+  "owner": {
+    "name": "Posteora",
+    "email": "support@posteora.com"
+  },
+  "plugins": [
+    {
+      "name": "posteora",
+      "source": "./",
+      "description": "Connect the Posteora MCP server (https://posteora.com/mcp): preview, approve, then post or schedule to X, LinkedIn, Bluesky, Mastodon, Pinterest, TikTok and YouTube."
+    }
+  ]
+}

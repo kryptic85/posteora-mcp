@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.kryptic85/posteora",
+  "title": "Posteora",
+  "description": "Posting agent for your AI: preview, then post or schedule to X, LinkedIn, Bluesky, TikTok and more.",
+  "websiteUrl": "https://posteora.com/mcp-server",
+  "repository": {
+    "url": "https://github.com/kryptic85/posteora-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "icons": [
+    {
+      "src": "https://posteora.com/static/brand/posteora/app-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://posteora.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@posteora/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "POSTEORA_API_KEY",
+          "description": "Optional. Your Posteora account API key, used as a Bearer token instead of the OAuth sign-in.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "@posteora/mcp",
+  "version": "0.1.0",
+  "description": "Posteora, the posting agent for your AI: a stdio shim for the remote Posteora MCP server (https://posteora.com/mcp). Post and schedule to X, LinkedIn, Bluesky, Mastodon, Pinterest, TikTok and YouTube from Claude, ChatGPT, Claude Code or Cursor.",
+  "mcpName": "io.github.kryptic85/posteora",
+  "bin": {
+    "posteora-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.15.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "social-media",
+    "scheduler",
+    "x",
+    "twitter",
+    "linkedin",
+    "bluesky",
+    "mastodon",
+    "pinterest",
+    "tiktok",
+    "youtube",
+    "claude",
+    "chatgpt",
+    "posting-agent"
+  ],
+  "homepage": "https://posteora.com/mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptic85/posteora-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kryptic85/posteora-mcp/issues",
+    "email": "support@posteora.com"
+  },
+  "author": "Posteora <support@posteora.com> (https://posteora.com)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

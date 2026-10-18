@@ -1,0 +1,15 @@
+{
+  "name": "posteora",
+  "displayName": "Posteora",
+  "version": "0.1.0",
+  "description": "The posting agent for your AI: preview fit and credit cost, approve, then post or schedule to X, LinkedIn, Bluesky, Mastodon, Pinterest, TikTok and YouTube.",
+  "author": {
+    "name": "Posteora",
+    "email": "support@posteora.com",
+    "url": "https://posteora.com"
+  },
+  "homepage": "https://posteora.com/mcp-server",
+  "repository": "https://github.com/kryptic85/posteora-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "social-media", "posting-agent", "x", "linkedin", "bluesky", "mastodon", "pinterest", "tiktok", "youtube"]
+}

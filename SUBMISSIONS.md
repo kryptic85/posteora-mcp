@@ -16,7 +16,7 @@ Shared values (reuse everywhere):
 | Repo | https://github.com/kryptic85/posteora-mcp |
 | Homepage | https://posteora.com |
 | Docs | https://posteora.com/mcp-server |
-| Pricing | https://posteora.com/#pricing |
+| Pricing | https://posteora.com/pricing |
 | Privacy policy | https://posteora.com/privacypolicy |
 | Terms | https://posteora.com/tos |
 | Support | support@posteora.com |

@@ -9,7 +9,7 @@ The server is hosted at `https://posteora.com/mcp` (Streamable HTTP). This repo 
 
 - Website: https://posteora.com
 - Server docs: https://posteora.com/mcp-server
-- Pricing: https://posteora.com/#pricing
+- Pricing: https://posteora.com/pricing
 - Support: support@posteora.com
 
 Posteora was formerly XposterAI. Connections made under the old name keep working.
@@ -196,7 +196,7 @@ curl -X POST https://posteora.com/mcp/media \
 
 ## Plans
 
-Free tier, no card, assistant included. Pro is $19 a month with unlimited posts (fair use). Details at https://posteora.com/#pricing. Tool calls spend the same credits the web Studio spends; nothing is free here that is not free there.
+Free tier, no card, assistant included. Pro is $19 a month with unlimited posts (fair use). Details at https://posteora.com/pricing. Tool calls spend the same credits the web Studio spends; nothing is free here that is not free there.
 
 ## What it does not do yet
 
@@ -210,7 +210,7 @@ Free tier, no card, assistant included. Pro is $19 a month with unlimited posts 
 
 - https://posteora.com
 - https://posteora.com/mcp-server (server docs)
-- https://posteora.com/#pricing
+- https://posteora.com/pricing
 - https://posteora.com/privacypolicy and https://posteora.com/tos
 - support@posteora.com
 
